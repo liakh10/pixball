@@ -335,7 +335,7 @@
     `<span>$PIXBALL</span>`,
     `<a href="${DEX_URL}" target="_blank" rel="noopener">DEXSCREENER</a>`,
     `<span>$PIXBALL</span>`,
-    `<a href="${X_URL}" target="_blank" rel="noopener">X · @SOON</a>`,
+    `<a href="${X_URL}" target="_blank" rel="noopener">X · @pixball_sol</a>`,
     `<span>$PIXBALL</span>`,
     `<span>SIX BLOBS · ONE BALL</span>`,
     `<span>$PIXBALL</span>`,
