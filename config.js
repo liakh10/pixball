@@ -9,7 +9,7 @@ const CA    = "SOON";              // <-- paste real contract address here
 const X_URL = "https://x.com/pixball_sol";
 
 /* ---- derived, do not edit ---- */
-const HAS_CA   = CA && CA !== "COMING SOON";
+const HAS_CA   = CA && CA !== "SOON";
 const PUMP_URL = HAS_CA ? `https://pump.fun/coin/${CA}` : "#";
 const DEX_URL  = HAS_CA ? `https://dexscreener.com/solana/${CA}` : "#";
 
