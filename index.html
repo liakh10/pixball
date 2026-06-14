@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>$Pixball</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <header id="topbar">
+    <div class="brand">
+      <span class="logo">PIX<span>BALL</span></span>
+    </div>
+    <div class="top-right">
+      <button id="ca" class="ca" title="copy contract">CA <b id="caVal">SOON</b></button>
+      <a id="xLink" class="iconbtn" href="#" target="_blank" rel="noopener" aria-label="X">𝕏</a>
+    </div>
+  </header>
+
+  <!-- ===== INTRO / LANDING ===== -->
+  <section id="intro">
+    <h1 class="logo big">PIX<span>BALL</span></h1>
+    <p class="tagline">six blobs. one ball. no offside.</p>
+
+    <div class="setup">
+      <label class="lbl">name your team</label>
+      <input id="teamName" class="tname" type="text" maxlength="12" placeholder="THE BLOBS" autocomplete="off" />
+      <button id="playBtn" class="playbtn">PLAY GAME</button>
+      <p class="snote">sound on · ♪</p>
+    </div>
+
+    <div class="rules">
+      <div class="rules-head">HOUSE RULES</div>
+      <ul>
+        <li><b>01</b> you are the blob with the band. the others are NPCs and they know it.</li>
+        <li><b>02</b> <span class="k">WASD</span> to jog, <span class="k">SPACE</span> to boot it. no tutorial. you'll figure it out or you won't.</li>
+        <li><b>03</b> the keeper has the reflexes of a parked car. exploit this.</li>
+        <li><b>04</b> outscore the CPU. there is no prize. there is no shame. there is only $PIXBALL.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== GAME ===== -->
+  <main id="gameWrap" class="hidden">
+    <section class="panel">
+      <div class="scoreboard">
+        <div class="team you"><span class="dot"></span><span id="teamLabel">YOU</span></div>
+        <div class="score"><b id="scoreYou">0</b><i>:</i><b id="scoreCpu">0</b></div>
+        <div class="team cpu">CPU<span class="dot"></span></div>
+      </div>
+
+      <div id="commentary" class="commentary">kick off.</div>
+
+      <div class="stage">
+        <canvas id="game" width="360" height="540"></canvas>
+        <div id="goalFlash" class="goalflash">GOAL</div>
+
+        <div id="touch" class="touch">
+          <div id="stick" class="stick"><div id="nub" class="nub"></div></div>
+          <button id="kick" class="kickbtn">KICK</button>
+        </div>
+      </div>
+
+      <div class="undertools">
+        <span class="hint"><span class="k">WASD</span> move · <span class="k">SPACE</span> kick</span>
+        <button id="quitBtn" class="quit">← menu</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== LED BOARD (full width, right→left) ===== -->
+  <div class="led">
+    <div class="led-track" id="ledTrack"></div>
+  </div>
+
+  <button id="snd" class="sndbtn" aria-label="sound">♪</button>
+
+  <script src="config.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

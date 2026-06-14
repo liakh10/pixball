@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <!-- green field bg -->
+  <rect width="64" height="64" fill="#3aa14a"/>
+  <rect width="64" height="32" fill="#349240"/>
+
+  <!-- === BLOB PLAYER (centered, pixel style) === -->
+  <!-- shadow -->
+  <ellipse cx="32" cy="54" rx="10" ry="4" fill="rgba(0,0,0,0.3)"/>
+
+  <!-- legs -->
+  <rect x="24" y="40" width="6" height="12" fill="#f4f4f4"/>
+  <rect x="34" y="40" width="6" height="12" fill="#f4f4f4"/>
+  <!-- shoes -->
+  <rect x="22" y="50" width="8" height="4" fill="#1a1a1a"/>
+  <rect x="34" y="50" width="8" height="4" fill="#1a1a1a"/>
+
+  <!-- body outline -->
+  <rect x="20" y="22" width="24" height="22" rx="6" fill="#1a1a1a"/>
+  <!-- body fill -->
+  <rect x="22" y="24" width="20" height="18" rx="4" fill="#f4f4f4"/>
+
+  <!-- arms -->
+  <rect x="12" y="26" width="8" height="6" rx="3" fill="#1a1a1a"/>
+  <rect x="44" y="26" width="8" height="6" rx="3" fill="#1a1a1a"/>
+  <rect x="13" y="27" width="6" height="4" rx="2" fill="#f4f4f4"/>
+  <rect x="45" y="27" width="6" height="4" rx="2" fill="#f4f4f4"/>
+
+  <!-- head outline -->
+  <circle cx="32" cy="18" r="12" fill="#1a1a1a"/>
+  <!-- head fill -->
+  <circle cx="32" cy="18" r="10" fill="#f4f4f4"/>
+
+  <!-- eyes -->
+  <rect x="26" y="14" width="4" height="5" fill="#1a1a1a"/>
+  <rect x="34" y="14" width="4" height="5" fill="#1a1a1a"/>
+  <!-- eye shine -->
+  <rect x="27" y="15" width="2" height="2" fill="#fff"/>
+  <rect x="35" y="15" width="2" height="2" fill="#fff"/>
+
+  <!-- smile -->
+  <rect x="28" y="22" width="8" height="2" fill="#1a1a1a"/>
+  <rect x="26" y="20" width="2" height="2" fill="#1a1a1a"/>
+  <rect x="36" y="20" width="2" height="2" fill="#1a1a1a"/>
+
+  <!-- === FOOTBALL === -->
+  <!-- ball shadow -->
+  <ellipse cx="46" cy="57" rx="6" ry="3" fill="rgba(0,0,0,0.25)"/>
+  <!-- ball white -->
+  <circle cx="46" cy="52" r="8" fill="#ffffff"/>
+  <!-- ball black patches -->
+  <rect x="43" y="49" width="6" height="6" fill="#1a1a1a"/>
+  <rect x="42" y="51" width="2" height="2" fill="#fff"/>
+  <rect x="49" y="51" width="2" height="2" fill="#fff"/>
+  <rect x="44" y="48" width="4" height="2" fill="#fff"/>
+  <rect x="44" y="57" width="4" height="2" fill="#fff"/>
+  <rect x="42" y="55" width="2" height="2" fill="#1a1a1a"/>
+  <rect x="50" y="55" width="2" height="2" fill="#1a1a1a"/>
+</svg>
