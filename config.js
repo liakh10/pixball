@@ -5,7 +5,7 @@
    All links (Pump.fun, Dexscreener, copy button) update automatically.
    ==================================================================== */
 
-const CA    = "SOON";   // <-- paste real CA here
+const CA    = "COMING SOON";   // <-- paste real CA here
 const X_URL = "https://x.com/pixball_sol";
 
 /* ---- derived — do not edit below ---- */
